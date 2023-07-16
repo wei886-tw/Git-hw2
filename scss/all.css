@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Bruno+Ace+SC&family=Pacifico&family=Roboto:ital,wght@1,400;1,500;1,700;1,900&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Bruno Ace", "serif";
+}
+body img {
+  vertical-align: bottom;
+  
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.mr-16 {
+  margin-right: 16px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-61 {
+  margin-right: 61px;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-24 {
+  margin-bottom: 24px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-24 {
+  padding-bottom: 24px;
+}
+
+.text-xs {
+  font-size: 16px;
+}
+
+.text-s {
+  font-size: 20px;
+}
+
+.text-m {
+  font-size: 24px;
+}
+
+.text-l {
+  font-size: 64px;
+}
+
+.bg-black {
+  background: #000;
+}
+
+.bg-white {
+  background: white;
+}
+
+.card {
+  width: 306px;
+  padding: 14px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 1px solid red;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.navBar .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBar .nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.navBar .nav a:hover {
+  transform: scale(1.5);
+}
+
+.william {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.william .william-img {
+  width: 636px;
+  height: 992px;
+  margin-right: 24px;
+}
+.william .william-img img {
+  padding: 72px 0;
+}
+.william .william-job {
+  width: 636px;
+}
+.william .william-job p {
+  color: white;
+  font-size: 64px;
+}
+.william .william-job h1 {
+  text-align: right;
+  font-size: 128px;
+  color: #00FFA3;
+}
+.william .william-job span {
+  font-size: 100px;
+}
+.william .william-job .contact-me {
+  width: 185px;
+  margin-left: auto;
+  border-radius: 32px;
+  text-align: center;
+  padding: 12px 0px 12px 24px;
+  background: white;
+}
+.william .william-job .contact-me a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+.william .william-job .contact-me a:hover {
+  color: red;
+}
+.william .william-job .contact-me img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.bg-cover {
+  margin: 0 auto;
+  background-image: url(../img/background-img.png);
+}
+.bg-cover .introduction {
+  display: flex;
+  padding: 160px 0;
+}
+.bg-cover .introduction .section-left {
+  width: 526px;
+}
+.bg-cover .introduction .section-left h2 {
+  color: white;
+}
+.bg-cover .introduction .section-left span {
+  font-size: 54px;
+}
+.bg-cover .introduction .section-left p {
+  color: white;
+  margin-bottom: 32px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.about .card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 636px;
+  margin: 206px 0px;
+}
+.about .card-box .card p {
+  margin-bottom: 4px;
+}
+.about .card-box .card p:last-child {
+  margin-bottom: 0px;
+}
+.about .about-me {
+  width: 526px;
+  margin: 160px 0px;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.contact-me h2 {
+  color: white;
+}
+.contact-me .content {
+  display: flex;
+  align-items: center;
+  margin-right: 113px;
+  padding: 127px 0;
+}
+.contact-me .content .arrow {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+.contact-me .icon-box {
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  padding: 96px 0 96px 0;
+}
+.contact-me .icon-box .discord, .contact-me .icon-box .ig, .contact-me .icon-box .message {
+  display: block;
+  width: 162px;
+  height: 162px;
+}
+.contact-me .icon-box .discord:hover, .contact-me .icon-box .ig:hover, .contact-me .icon-box .message:hover {
+  transform: scale(1.5);
+}
+.contact-me .icon-box .discord, .contact-me .icon-box .ig {
+  margin-right: 20px;
+}
+
+.my-projects {
+  display: flex;
+  justify-content: space-between;
+}
+.my-projects .left-side {
+  max-width: 100%;
+  height: auto;
+  padding: 272px 0 162px 0;
+}
+.my-projects .right-side h2 {
+  width: 746px;
+  margin-left: auto;
+}
+.my-projects .right-side .img-and-text {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.footer {
+  padding: 40px 0 40px 0;
+}
+.footer p {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=all.css.map */
