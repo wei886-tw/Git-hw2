@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    // outline: 1px solid red;
+    outline: 1px solid red;
 
 }
 
@@ -64,7 +64,7 @@
             width: 185px;
             margin-left: auto;
             border-radius: 32px;
-            text-align: center;
+
             padding: 12px 0px 12px 24px;
             background: white;
 
@@ -185,7 +185,7 @@
             width: 162px;
             height: 162px;
             &:hover{
-                transform: scale(1.5);
+                transform: scale(1.3);
             }
         }
     
@@ -221,6 +221,39 @@
             .img-and-text{
                 display: flex;
                 margin-bottom: 28px;
+                .text-n-btn{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+
+                    .btn{
+                        width: 185px;
+                        margin-right: auto;
+                        border-radius: 32px;
+                        padding: 12px 0px 12px 24px;
+                        background: black;
+            
+                        a {
+                            text-decoration: none;
+                            text-align: center;
+                            font-size: 16px;
+                            color: white;
+                            &:hover {
+                                color: red;
+            
+                                
+                            }
+                        }
+            
+                        img{
+                            width: 24px;
+                            height: 24px;
+                            vertical-align: middle;
+                            fill: white;
+
+                        }
+                    }
+                }
 
                 
             }

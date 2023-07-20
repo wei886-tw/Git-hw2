@@ -124,6 +124,7 @@ table {
 
 * {
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 .container {
@@ -177,7 +178,6 @@ table {
   width: 185px;
   margin-left: auto;
   border-radius: 32px;
-  text-align: center;
   padding: 12px 0px 12px 24px;
   background: white;
 }
@@ -272,7 +272,7 @@ table {
   height: 162px;
 }
 .contact-me .icon-box .discord:hover, .contact-me .icon-box .ig:hover, .contact-me .icon-box .message:hover {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .contact-me .icon-box .discord, .contact-me .icon-box .ig {
   margin-right: 20px;
@@ -295,6 +295,33 @@ table {
 .my-projects .box .right-side .img-and-text {
   display: flex;
   margin-bottom: 28px;
+}
+.my-projects .box .right-side .img-and-text .text-n-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.my-projects .box .right-side .img-and-text .text-n-btn .btn {
+  width: 185px;
+  margin-right: auto;
+  border-radius: 32px;
+  padding: 12px 0px 12px 24px;
+  background: black;
+}
+.my-projects .box .right-side .img-and-text .text-n-btn .btn a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+}
+.my-projects .box .right-side .img-and-text .text-n-btn .btn a:hover {
+  color: red;
+}
+.my-projects .box .right-side .img-and-text .text-n-btn .btn img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  fill: white;
 }
 .my-projects .box .right-side .only-img .rec-14 {
   width: 306px;
