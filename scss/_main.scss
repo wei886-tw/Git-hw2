@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    outline: 1px solid red;
+    // outline: 1px solid red;
 
 }
 
@@ -249,7 +249,7 @@
                             width: 24px;
                             height: 24px;
                             vertical-align: middle;
-                            fill: white;
+                            filter: invert(99%) sepia(71%) saturate(2%) hue-rotate(69deg) brightness(110%) contrast(100%);
 
                         }
                     }
