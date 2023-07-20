@@ -177,7 +177,7 @@ table {
   width: 185px;
   margin-left: auto;
   border-radius: 32px;
-  padding: 12px 0px 12px 24px;
+  padding: 12px 12px 12px 12px;
   background: white;
 }
 .william .william-job .contact-me a {
@@ -304,7 +304,7 @@ table {
   width: 185px;
   margin-right: auto;
   border-radius: 32px;
-  padding: 12px 0px 12px 24px;
+  padding: 12px 28px 12px 24px;
   background: black;
 }
 .my-projects .box .right-side .img-and-text .text-n-btn .btn a {
@@ -312,6 +312,8 @@ table {
   text-align: center;
   font-size: 16px;
   color: white;
+  display: block;
+  width: 109px;
 }
 .my-projects .box .right-side .img-and-text .text-n-btn .btn a:hover {
   color: red;
